@@ -1,6 +1,5 @@
 package com.example.pedidos.models;
 
-import org.hibernate.annotations.Collate;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
