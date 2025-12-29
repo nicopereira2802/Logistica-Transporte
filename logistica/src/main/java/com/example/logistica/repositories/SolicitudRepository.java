@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import com.example.logistica.models.Solicitud;
 
 @Repository
-public interface SolicitudRepository extends JpaRepository<Long, Solicitud>{
+public interface SolicitudRepository extends JpaRepository<Solicitud, Long>{
     
 }
