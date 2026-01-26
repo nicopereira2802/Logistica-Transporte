@@ -27,6 +27,6 @@ public class Cliente {
     @Column(name = "email")
     private String email;
 
-    @Column(name = "password")
-    private String password;
+    @Column(name = "contrasena")
+    private String contrasena;
 }

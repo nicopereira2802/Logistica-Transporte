@@ -27,4 +27,8 @@ public class Ciudad {
 
     @Column(name = "longitud_ciudad")
     private double longitud;
+
+    @Column(name = "nombre_ciudad")
+    private String nombre;
+
 }

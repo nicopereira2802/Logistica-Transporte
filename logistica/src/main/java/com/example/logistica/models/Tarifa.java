@@ -22,12 +22,12 @@ public class Tarifa {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "montoBase")
+    @Column(name = "monto_base")
     private double montoBase;
 
-    @Column(name = "costoKm")
+    @Column(name = "costo_km")
     private double costoKm;
 
-    @Column(name = "costoDiaDeposito")
+    @Column(name = "costo_dia_deposito")
     private double costoDiaDeposito;
 }
